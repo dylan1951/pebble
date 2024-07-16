@@ -1652,7 +1652,7 @@ func (i *Iterator) First() bool {
 	return i.iterValidityState == IterValid
 }
 
-// Last moves the iterator the last key/value pair. Returns true if the
+// Last moves the iterator to the last key/value pair. Returns true if the
 // iterator is pointing at a valid entry and false otherwise.
 func (i *Iterator) Last() bool {
 	if i.rangeKey != nil {
